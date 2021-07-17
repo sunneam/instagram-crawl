@@ -19,4 +19,5 @@ func Init()  {
 	session.SetMode(mgo.Monotonic, true)
 	Db=session.DB("veryins")
 	fmt.Println("连接数据库成功")
+	fmt.Println("连接数据库成功")
 }
