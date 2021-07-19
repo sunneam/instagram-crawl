@@ -16,5 +16,8 @@ func Init()  {
 		panic(err)
 	}
 	session.SetMode(mgo.Monotonic, true)
+	session.SetMode(mgo.Monotonic, true)
+	session.SetMode(mgo.Monotonic, true)
+	session.SetMode(mgo.Monotonic, true)
 	Db=session.DB("veryins")
 }
