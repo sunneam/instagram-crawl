@@ -15,8 +15,6 @@ func Init()  {
 	if err!=nil {
 		panic(err)
 	}
-	fmt.Println("测试")
-	fmt.Println("测试")
 	session.SetMode(mgo.Monotonic, true)
 	Db=session.DB("veryins")
 }
